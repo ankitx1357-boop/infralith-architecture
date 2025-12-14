@@ -1,0 +1,17 @@
+{
+  "name": "infralith-core",
+  "version": "2.4.0",
+  "description": "Monolithic AI Infrastructure Engine",
+  "main": "gateway.js",
+  "scripts": {
+    "start": "node gateway.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "groq-sdk": "^0.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
